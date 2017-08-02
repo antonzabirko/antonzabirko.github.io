@@ -1,0 +1,119 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <!--<link rel="stylesheet" href="css/main.css"> -->
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <main>
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Samuel Hyppolite Design" style="width:150px;height:100px;">
+            </div>
+
+        <header>
+        	<nav class="navbar navbar-inverse navbar-fixed-top">
+        		<ul>
+        			<li><a href="main_page.html" title="Home" class="topHeader active">Home</a></li>
+        			<li class="dropdown">
+                        <div class="dropbtn">
+                        <a href="javascript:void(0)" class="topHeader">Portfolio</a>
+                        <div class="dropdown-content">
+                            <a href="portraits.html">Portraits</a>
+                            <a href="nature.html">Nature</a>
+                        </div>
+                        </div>
+                    </li>
+        			<li><a href="contact.html" title="Contact" class="topHeader">Contact</a></li>
+        			<li><a href="about.html" title="About" class="topHeader">About</a></li>
+        		</ul>
+        	</nav>
+        </header>
+
+        <div class="whiteSpace">
+            <div class="booking">
+                <p class="name"><a href="about.html" class="styled">Samuel</br>Hyppolite</p></a>
+                <p class="bookingText"><a href="contact.html" class="styled">Schedule Consultation >></a></p>
+            </div>
+        </div>
+
+        <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="images/church.jpg" style="width:655px; height:500px">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <img src="images/waterfall.jpg" style="width:655px; height: 500px">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <img src="images/building.jpg" style="width:655px; height: 500px">
+  <div class="text">    </div>
+</div>
+
+<div class="mySlides fade">
+  <img src="images/building2.jpg" style="width:655px; height: 500px">
+  <div class="text">    </div>
+</div>
+
+</div>
+<br>
+
+
+
+        <footer>
+        	<nav>
+        		<ul>
+        			<li class="copyright">Made in NYC &copy; 2017 Samuel Hyppolite</li>
+        		</ul>
+        	</nav>
+        </footer>
+
+        </main>
+
+        <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+        <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+</script>
+    </body>
+</html>
