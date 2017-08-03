@@ -2,13 +2,16 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	min-width: 1200px;
 }
 
 body {
 	background-color: black;
     height: 100%;
     width: 100%;
+}
+
+.sizeContainer {
+	min-width: 1200px;
 }
 
 header {
