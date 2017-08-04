@@ -1,17 +1,17 @@
 body {
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 body {
-	background-color: black;
+  background-color: black;
     height: 100%;
     width: 100%;
 }
 
 .sizeContainer {
-	min-width: 1500px;
+  min-width: 1500px;
 }
 
 header {
@@ -27,13 +27,13 @@ header {
 }
 
 footer {
-	bottom: 0;
-	position: absolute;
-	font-size: 10px;
-	text-align: bottom-right;
-	font-family: Spectral, serif;
-	position: relative;
-	background-color: black;
+  bottom: 0;
+  position: absolute;
+  font-size: 10px;
+  text-align: bottom-right;
+  font-family: Spectral, serif;
+  position: relative;
+  background-color: black;
 }
 
 li {
@@ -58,7 +58,7 @@ li a.activeTab{
 
 
 footer {
-	bottom: 0;
+  bottom: 0;
 }
 
 li a, .dropbtn {
@@ -95,8 +95,8 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-	background-color: #f1f1f1;
-	color: red;
+  background-color: #f1f1f1;
+  color: red;
 }
 
 .dropdown:hover .dropdown-content {
@@ -104,76 +104,76 @@ li.dropdown {
 }
 
 div.whiteSpace {
-	background-color: white;
-	width: 70%;
-	height: 500px;
-	margin: auto;
+  background-color: white;
+  width: 70%;
+  height: 500px;
+  margin: auto;
 }
 
 .booking {
-	left: 0;
-	width: 35%;
-	height: 100%;
-	font-size: 20px;
-	background-color: gray;
+  left: 0;
+  width: 35%;
+  height: 100%;
+  font-size: 20px;
+  background-color: gray;
 }
 
 p.name {
-	margin: auto;
-	position: relative;
-	text-align: center;
-	top: 30%;
-	font-size: 40px;
-	font-family: 'Spectral';
-	text-transform: uppercase;
-	font-weight: 900;
-	line-height: 80%;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  top: 30%;
+  font-size: 40px;
+  font-family: 'Spectral';
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 80%;
 }
 
 .bookingText {
-	margin: auto;
-	position: relative;
-	text-align: center;
-	top: 70%;
-	font-size: 15px;
-	font-family: 'Spectral';
-	text-transform: uppercase;
-	font-weight: 200;
-	color: white;
-	text-decoration: none;
-	color: black;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  top: 70%;
+  font-size: 15px;
+  font-family: 'Spectral';
+  text-transform: uppercase;
+  font-weight: 200;
+  color: white;
+  text-decoration: none;
+  color: black;
 }
 
 li.copyright {
-	position: fixed;
-	margin: auto;
-	color: white;
-	bottom: 0px;
-	right: 5%;
+  position: fixed;
+  margin: auto;
+  color: white;
+  bottom: 0px;
+  right: 5%;
 }
 
 .logo {
-	position: fixed;
-	left: 312px;
-	top: 20%;
-	width: 158px;
+  position: fixed;
+  left: 312px;
+  top: 20%;
+  width: 158px;
 }
 
 .homeSlideshow {
-	position: fixed;
-	margin: auto;
-	object-fit: fill;
-	margin: auto;
-	height: 500px;
-	width: 655px;
-	bottom: 130px;
-	right: 216px;
+  position: fixed;
+  margin: auto;
+  object-fit: fill;
+  margin: auto;
+  height: 500px;
+  width: 655px;
+  bottom: 130px;
+  right: 216px;
 
 }
 
 a.styled {
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .mySlides {display:none}
@@ -183,10 +183,10 @@ a.styled {
   max-width: 655px;
   position: fixed;
   margin: auto;
-	left: 592px;
-	top: 106px;
-	height: 500px;
-	width: 680px;
+  left: 592px;
+  top: 106px;
+  height: 500px;
+  width: 680px;
 }
 
 /* Caption text */
@@ -239,51 +239,51 @@ a.styled {
 }
 
 img.portraitImg {
-	position: fixed;
-	height: 200px;
-	width: 200px;
-	border-radius: 100px;
-	left: 290px;
-	top: 160px;
-	border: 3px solid black;
+  position: fixed;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  left: 290px;
+  top: 160px;
+  border: 3px solid black;
 }
 
 .designText {
-	margin: auto;
-	position: relative;
-	text-align: center;
-	top: 70%;
-	font-size: 25px;
-	font-family: 'Spectral';
-	text-transform: uppercase;
-	font-weight: 900;
-	color: white;
-	text-decoration: none;
-	color: black;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  top: 70%;
+  font-size: 25px;
+  font-family: 'Spectral';
+  text-transform: uppercase;
+  font-weight: 900;
+  color: white;
+  text-decoration: none;
+  color: black;
 }
 
 p.aboutDescriptionMini {
-	margin: auto;
-	position: relative;
-	text-align: center;
-	top: 50%;
-	font-size: 14px;
-	font-family: 'PT Sans';
-	font-weight: 400;
-	color: white;
-	text-decoration: none;
-	color: black;
-	font-style: italic;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  font-size: 14px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+  color: black;
+  font-style: italic;
 }
 
 .portrait {
-	height: 150px;
-	width: 150px;
-	border-radius: 100px;
-	border: 5px solid black;
-	position: fixed;
-	left: 330px;
-	top: 170px;
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  border: 5px solid black;
+  position: fixed;
+  left: 330px;
+  top: 170px;
 }
 
 .gallery {
@@ -309,7 +309,6 @@ p.aboutDescriptionMini {
   background-size: cover;
   background-position: center;
   cursor: pointer;
-  transition: transform ease-in-out 300ms;
 }
 
 .img-w img {
@@ -321,7 +320,6 @@ p.aboutDescriptionMini {
 }
 
 .img-c:hover .img-w {
-  transform: scale(1.08);
   transition: transform cubic-bezier(0.4, 0, 0.2, 1) 450ms;
 }
 
@@ -346,19 +344,19 @@ p.aboutDescriptionMini {
 }
 
 .bio {
-	position: fixed;
-	left: 700px;
-	top:250px;
-	width: 400px;
+  position: fixed;
+  left: 700px;
+  top:250px;
+  width: 400px;
 
 
 }
 
 .bioName {
-	position: fixed;
-	left: 825px;
-	top: 180px;
-	width: 400px;
+  position: fixed;
+  left: 825px;
+  top: 180px;
+  width: 400px;
 
 }
 
@@ -396,7 +394,7 @@ textarea {
     top: 410px;
     position: fixed;
     left: 700px;
-	width: 150px;
+  width: 150px;
 }
 
 input[type=submit] {
@@ -421,12 +419,12 @@ div.input{
 }
 
 .portraitContact {
-	position: fixed;
-	top: 104px;
-	left: 225px;
-	height: 500px;
-	width: 300px;
-	margin: auto;
- 	display: block;
- 	border: 3px solid gray;
+  position: fixed;
+  top: 104px;
+  left: 225px;
+  height: 500px;
+  width: 300px;
+  margin: auto;
+  display: block;
+  border: 3px solid gray;
 }
