@@ -1,0 +1,100 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <!--<link rel="stylesheet" href="css/main.css"> -->
+    </head>
+    <body>
+        <div class="sizeContainer">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <main>
+
+        <header>
+        	<nav class="navbar navbar-inverse navbar-fixed-top">
+        		<ul>
+        			<li><a href="index.html" title="Home" class="topHeader">Home</a></li>
+        			<li class="dropdown">
+                        <div class="dropbtn">
+                        <a href="javascript:void(0)" class="topHeader">Portfolio</a>
+                        <div class="dropdown-content">
+                            <a href="models.html">Models</a>
+                            <a href="animals.html">Animals</a>
+                        </div>
+                        </div>
+                    </li>
+        			<li><a href="contact.html" title="Contact" class="topHeader activeTab">Contact</a></li>
+        			<li><a href="about.html" title="About" class="topHeader">About</a></li>
+        		</ul>
+        	</nav>
+        </header>
+
+        <div class="whiteSpace">
+            </div>
+        </div>
+        <img src="images/placeholder.jpg" class="portraitContact">
+<div>
+  <form action="/action_page.php">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="john doe" class="fullname">
+
+    <label for="email" class="lname">Email</label>
+    <input type="text" id="lname" name="lastname" placeholder="john@example.com" class="email">
+    <textarea name="message" placeholder="enter message" ></textarea>
+  
+    <input type="submit" value="Send" class="submit">
+  </form>
+</div>
+
+        <footer>
+        	<nav>
+        		<ul>
+        			<li class="copyright">&copy; 2017 Samuel Hyppolite</li>
+        		</ul>
+        	</nav>
+        </footer>
+            </div>
+        </main>
+
+        <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+        <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+</script>
+    </body>
+</html>

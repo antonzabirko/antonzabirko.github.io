@@ -23,6 +23,7 @@ header {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
+    position: static;
 }
 
 footer {
@@ -51,7 +52,7 @@ li a.topHeader:hover {
     color: red;
 }
 
-li a.active{
+li a.activeTab{
     color: gray;
 }
 
@@ -147,7 +148,7 @@ li.copyright {
 	position: fixed;
 	margin: auto;
 	color: white;
-	bottom: 50px;
+	bottom: 0px;
 	right: 5%;
 }
 
@@ -182,10 +183,10 @@ a.styled {
   max-width: 655px;
   position: fixed;
   margin: auto;
-	left: 600px;
+	left: 592px;
 	top: 106px;
 	height: 500px;
-	width: 650px;
+	width: 680px;
 }
 
 /* Caption text */
@@ -251,7 +252,7 @@ img.portraitImg {
 	margin: auto;
 	position: relative;
 	text-align: center;
-	top: 88%;
+	top: 70%;
 	font-size: 25px;
 	font-family: 'Spectral';
 	text-transform: uppercase;
@@ -273,4 +274,159 @@ p.aboutDescriptionMini {
 	text-decoration: none;
 	color: black;
 	font-style: italic;
+}
+
+.portrait {
+	height: 150px;
+	width: 150px;
+	border-radius: 100px;
+	border: 5px solid black;
+	position: fixed;
+	left: 330px;
+	top: 170px;
+}
+
+.gallery {
+  width: 600px;
+  border-radius: 3px;
+  overflow: hidden;
+  position: absolute;
+  top: 100px;
+  left: 30%;
+}
+.img-c {
+  width: 200px;
+  height: 200px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-w {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: transform ease-in-out 300ms;
+}
+
+.img-w img {
+  display: none;
+}
+
+.img-c {
+    transition: width ease 400ms, height ease 350ms, left cubic-bezier(0.4, 0, 0.2, 1) 420ms, top cubic-bezier(0.4, 0, 0.2, 1) 420ms;
+}
+
+.img-c:hover .img-w {
+  transform: scale(1.08);
+  transition: transform cubic-bezier(0.4, 0, 0.2, 1) 450ms;
+}
+
+.img-c.active {
+  width: 100% !important;
+  height: 100% !important;
+  position: fixed;
+  z-index: 2;
+  //transform: translateX(-50%);
+}
+
+.img-c.postactive {
+  position: fixed;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.img-c.active.positioned {
+  left: 0 !important;
+  top: 0 !important;
+  transition-delay: 50ms;
+}
+
+.bio {
+	position: fixed;
+	left: 700px;
+	top:250px;
+	width: 400px;
+
+
+}
+
+.bioName {
+	position: fixed;
+	left: 825px;
+	top: 180px;
+	width: 400px;
+
+}
+
+input[type=text], select, textarea {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.email {
+    top: 170px;
+    position: fixed;
+    left: 700px;
+}
+
+.fullname {
+    top: 230px;
+    position: fixed;
+    left: 700px;
+}
+
+textarea {
+    top: 290px;
+    position: fixed;
+    left: 700px;
+    height: 100px;
+    width: 400px;
+}
+
+.submit {
+    top: 410px;
+    position: fixed;
+    left: 700px;
+	width: 150px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: fixed;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div.input{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.portraitContact {
+	position: fixed;
+	top: 104px;
+	left: 225px;
+	height: 500px;
+	width: 300px;
+	margin: auto;
+ 	display: block;
+ 	border: 3px solid gray;
 }
