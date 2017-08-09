@@ -223,7 +223,7 @@ h1.name {
     align-self: center;
 
     font-family: 'Spectral';
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: 900;
     line-height: 80%;
     
@@ -235,7 +235,7 @@ p.consult-text {
     align-self: flex-end;
 
     font-family: 'Spectral';
-    font-size: 15px;
+    font-size: 0.938em;
     font-weight: 200;
 
     text-decoration: none;
@@ -305,7 +305,7 @@ p.biography {
 }
 
 .text {
-    font-size: 15px;
+    font-size: 0.938em;
 
     position: absolute;
     bottom: 8px;
@@ -317,37 +317,6 @@ p.biography {
 
     color: #f2f2f2;
 }
-
-
-/* Number text (1/3 etc) */
-
-.numbertext {
-    font-size: 12px;
-
-    position: absolute;
-    top: 0;
-
-    padding: 8px 12px;
-
-    color: #f2f2f2;
-}
-
-
-/* The dots/bullets/indicators */
-
-.dot {
-    display: inline-block;
-
-    width: 13px;
-    height: 13px;
-    margin: 0 2px;
-
-    transition: background-color 1s ease-in;
-
-    border-radius: 50%;
-    background-color: #bbb;
-}
-
 
 /* Fading animation */
 
@@ -391,7 +360,7 @@ img.portrait-img {
     align-self: center;
 
     font-family: 'PT Sans';
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: 900;
     line-height: 80%;
     
@@ -401,7 +370,7 @@ img.portrait-img {
 
 .design-text {
     font-family: 'Spectral';
-    font-size: 25px;
+    font-size: 1.563em;
     font-weight: 900;
 
     position: absolute;
@@ -419,7 +388,7 @@ img.portrait-img {
 
 p.about-description-mini {
     font-family: 'PT Sans';
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: 400;
     font-style: italic;
 
