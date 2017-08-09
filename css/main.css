@@ -18,9 +18,9 @@ html {
 }
 
 hr {
-    display: block;
+    display: flex;
 
-    height: 1px;
+    width: 1px;
     margin: 1em 0;
     padding: 0;
 
@@ -61,7 +61,11 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+* {
 
+    padding: 0;
+    margin: 0;
+}
 body {
     background-color: black;
     margin: 0;
@@ -85,8 +89,7 @@ header {
     z-index: 9;
     font-size: 1em;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-flow: row nowrap;
     justify-content: center;
 }
 
@@ -111,6 +114,7 @@ li.header {
     justify-content: inherit;
     margin: 4% 25px;
     list-style: none;
+    align-self: center;
 }   
 
 main {
@@ -214,11 +218,6 @@ li.dropdown {
     display: flex;
 }
 
-hr {
-    margin: 2px 0 1px 0px;
-    border-color: gray;
-}
-
 h1.name {
     align-self: center;
 
@@ -242,7 +241,21 @@ p.consult-text {
     text-transform: uppercase;
     text-align: center;
 
-    color: black;
+    margin: 0 0 3em 0;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    -webkit-transition-duration: .5s;
+    -webkit-transition-property: all;
+}
+
+p.consult-text:hover {
+    border: 2px solid black;
+}
+
+a.link-styler-white:hover {
+    color: white;
 }
 
 img.logo-small {
@@ -266,6 +279,14 @@ img.logo-small {
 
 a.link-styler {
     text-decoration: none;
+
+    color: black;
+}
+
+a.link-styler-white {
+    text-decoration: none;
+    -webkit-transition-duration: .5s;
+    -webkit-transition-property: color;
 
     color: black;
 }
@@ -407,14 +428,28 @@ p.about-description-mini {
 footer {
     display: flex;
     justify-content: flex-end;
-    padding: 5% 4% 0 0;
     font-family: 'Spectral', serif;
-    font-size: 1em;
     color: white;
+    width: 100%;
+    margin: 5em 0 0 0;
+}
+
+nav.footer {
+    display: inherit;
+    justify-content: inherit;
+    width: 100%;
+    margin: 0 2em;
+}
+
+ul.footer {
+    display: inherit;
+    justify-content: inherit;
+    width: 100%;
 }
 
 li.copyright {
     display: inherit;
+    justify-content: inherit;
 }
 
 input[type=text], input[type=name], input[type=email], select, textarea {

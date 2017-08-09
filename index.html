@@ -19,9 +19,6 @@
 
     <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-
-    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 
 <body>
@@ -32,7 +29,7 @@
 
         <header>
             <img src="img/logo.png" style="height: 100px; width: 150px;" class="logo-small">
-            <nav class="header">
+            <nav class="header" aria-label="site">
                 <ul class="header">
                     <li class="header"><a href="#home" title="Home" class="header active-nav-tab">Home</a></li>
                     <li class="dropdown header">
@@ -61,7 +58,7 @@
                         <a href="about.html" class="link-styler">Hyppo<br>Design</a>
                     </h1>
                     <p class="consult-text">
-                        <a href="contact.html" class="link-styler">Schedule Consultation</a>
+                        <a href="contact.html" class="link-styler-white">Schedule Consultation</a>
                     </p>
                 </section>
 
@@ -75,10 +72,10 @@
         </main>
 
         <footer>
-            <nav class="footer">
+            <nav class="footer" aria-label="site">
                 <ul class="footer">
                     <li class="copyright">
-                        <small>&copy; 2017 Samuel Hyppolite</small>
+                        <p><small class="copyright">&copy; 2017 Samuel Hyppolite</small></p>
                     </li>
                 </ul>
             </nav>
@@ -129,6 +126,9 @@
                 setTimeout(showSlides, 4000); // Change image every 2 seconds
             }
         </script>
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     </div>
 </body>
 
