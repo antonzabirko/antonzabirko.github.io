@@ -6,5 +6,4 @@ $recipient = "obliviron@yahoo.com";
 $subject = "Contact Form";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-echo "Email sent!";
-?>
+echo "Email sent!";?>
