@@ -245,6 +245,19 @@
         border: 1px solid black;
     }
     
+    h1.name {
+        -ms-flex-item-align: center;
+            align-self: center;
+    
+        font-family: 'Spectral';
+        font-size: 2.5em;
+        font-weight: 900;
+        line-height: 80%;
+        
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
     @media screen and (min-width: 64em)  {
       }
     
@@ -253,7 +266,7 @@
     
     @media screen and (max-width: 47em) {
         section.gray-space {
-            display: inherit;
+            display: block;
             -webkit-box-orient: horizontal;
             -webkit-box-direction: normal;
                 -ms-flex-direction: row;
@@ -281,15 +294,15 @@
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-                -ms-flex-direction: column;
-                    flex-direction: column;
+            -webkit-box-orient: inherit;
+            -webkit-box-direction: inherit;
+                -ms-flex-direction: inherit;
+                    flex-direction: inherit;
             -ms-flex-wrap: wrap;
                 flex-wrap: wrap;
             -webkit-box-pack: center;
                 -ms-flex-pack: center;
-                    justify-content: center;
+                    justify-content: flex-start;
             -ms-flex-item-align: center;
                 align-self: center;
         
@@ -330,6 +343,20 @@
             #hide-side-nav {
                 display: none;
             }
+    
+    h1.name {
+        -ms-flex-item-align: center;
+            align-self: center;
+    
+        font-family: 'Spectral';
+        font-size: 2.5em;
+        font-weight: 900;
+        line-height: 80%;
+        
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 1.5rem;
+    }
       }
     
     li a.header {
@@ -402,19 +429,6 @@
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-    }
-    
-    h1.name {
-        -ms-flex-item-align: center;
-            align-self: center;
-    
-        font-family: 'Spectral';
-        font-size: 2.5em;
-        font-weight: 900;
-        line-height: 80%;
-        
-        text-align: center;
-        text-transform: uppercase;
     }
     
     p.consult-text {
