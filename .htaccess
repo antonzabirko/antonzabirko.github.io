@@ -1,4 +1,11 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Options Indexes
+ErrorDocument 404 404.html
 RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)$ $1.html
+RewriteCond %{HTTP_HOST} ^()(:80)? [NC]
+RewriteRule ^(.*) https://www./$1 [R=301,L]
+DirectoryIndex index.html       
+order deny,allow
+deny from about.html
