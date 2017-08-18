@@ -258,6 +258,100 @@
         text-transform: uppercase;
     }
     
+    .contact-form {
+        margin: 3% 5%;
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        height: 420px;
+    }
+    
+    .alt-space {
+        width: 67%;
+        border: 1px solid black;
+    }
+    
+    img.portrait-img {
+        margin: 8% 0;
+    
+        width: 200px;
+        height: 200px;
+    
+        border: 3px solid black;
+        border-radius: 100px;
+        overflow: hidden;
+    }
+    
+    section.biography {
+        -ms-flex-item-align: start;
+            align-self: flex-start;
+    
+        width: 67%;
+        height: 100%;
+        border: 1px solid black;
+    }
+    
+    p.biography {
+        margin: 6.4% 6.4%;
+        overflow: scroll;
+        height: 95%;
+    }
+    
+    .my-gallery {
+      width: 100%;
+      float: left;
+    }
+    .my-gallery img {
+      width: 100%;
+      height: auto;
+    }
+    .my-gallery figure {
+      display: block;
+      float: left;
+      margin: 0 5px 5px 0;
+      width: 150px;
+    }
+    .my-gallery figcaption {
+      display: none;
+    }
+    .responsive-menu {
+        width: 100%;
+        display: flex;
+        align-self: center;
+        justify-content: space-between;
+        align-content: center;
+        background-color: black;
+        font-size: 2em;
+        flex-wrap: nowrap;
+        border-top: white 1px solid;
+        border-bottom: white 1px solid;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+    .mini-menu {
+        display: inline-flex;
+        text-decoration: none;
+        color: red;
+        font-size: 2em;
+    }
+    .nav-description {
+        display: inline-flex;
+        align-self: center;
+        margin:;
+        color: white;
+    }
+    .rmi-item {
+        padding: .2em;
+        background-color: gray;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+    }
+    .responsive-menu-items {
+        width: 100%;
+    }
+    
     @media screen and (min-width: 64em)  {
       }
     
@@ -284,7 +378,7 @@
                 align-self: center;
         
             width: 100%;
-            height: 210px;
+            height: 205px;
         
             background-color: gray;
             border: 1px solid black;
@@ -357,7 +451,86 @@
         text-transform: uppercase;
         padding-top: 1.5rem;
     }
-      }
+    
+    .contact-form {
+        margin: auto;
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        height: 420px;
+        width: 90%;
+    }
+    
+    .alt-space {
+        width: 100%;
+        border: 1px solid black;
+    }
+    
+    img.portrait-img {
+        display: flex;
+        margin: auto;
+    
+        width: 200px;
+        height: 200px;
+    
+        border: 3px solid black;
+        border-radius: 100px;
+    }
+    
+    section.biography {
+        -ms-flex-item-align: start;
+            align-self: flex-start;
+    
+        width: 100%;
+        height: 100%;
+        border: 1px solid black;
+        background-color: white;
+    }
+    
+    p.biography {
+        display: flex;
+        align-self: center;
+        margin: 6.4% 6.4%;
+        overflow: scroll;
+        height: 100%;
+    }
+    
+    .my-gallery {
+      width: 100%;
+      float: left;
+      display: flex;
+    }
+    .my-gallery img {
+      width: 100%;
+      height: auto;
+    }
+    .my-gallery figure {
+      display: block;
+      float: left;
+      margin: 0 5px 5px 0;
+      width: 150px;
+    }
+    .my-gallery figcaption {
+      display: none;
+    }
+
+    #grayResponsive {
+        background-color: black;
+    }
+
+    .black-space {
+        display: none;
+    }
+    
+        .black-space-secondary {
+            display: none;
+        }
+
+    #photographyResponsive {
+        width: 100%;
+        background-color: red;
+    }
+}
     
     li a.header {
         -webkit-transition-duration: .7s;
@@ -504,21 +677,6 @@
         height: 100%;
     }
     
-    section.biography {
-        -ms-flex-item-align: start;
-            align-self: flex-start;
-    
-        width: 67%;
-        height: 100%;
-        border: 1px solid black;
-    }
-    
-    p.biography {
-        margin: 6.4% 6.4%;
-        overflow: scroll;
-        height: 95%;
-    }
-    
     .text {
         font-size: 0.938em;
     
@@ -558,17 +716,6 @@
         to {
             opacity: 1;
         }
-    }
-    
-    img.portrait-img {
-        margin: 8% 0;
-    
-        width: 200px;
-        height: 200px;
-    
-        border: 3px solid black;
-        border-radius: 100px;
-        overflow: hidden;
     }
     
     .portrait-description {
@@ -677,14 +824,6 @@
            object-fit: cover;
     }
     
-    .contact-form {
-        margin: 3% 5%;
-        border-radius: 5px;
-        background-color: #f2f2f2;
-        padding: 20px;
-        height: 420px;
-    }
-    
     .contact-p {
         margin: 0;
     }
@@ -698,11 +837,6 @@
         cursor: pointer;
     }
     
-    .alt-space {
-        width: 67%;
-        border: 1px solid black;
-    }
-    
     input[type=submit] {
         -webkit-transition-duration: .7s;
         -webkit-transition-property: color;
@@ -713,24 +847,6 @@
     
     input[type=submit]:hover {
         color: red;
-    }
-    
-    .my-gallery {
-      width: 100%;
-      float: left;
-    }
-    .my-gallery img {
-      width: 100%;
-      height: auto;
-    }
-    .my-gallery figure {
-      display: block;
-      float: left;
-      margin: 0 5px 5px 0;
-      width: 150px;
-    }
-    .my-gallery figcaption {
-      display: none;
     }
     
     .side-nav {
